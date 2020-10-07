@@ -1,0 +1,16 @@
+.pod_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    color: #ffffff;
+}
+
+.pod_img img {
+    border-radius: 200px;
+}
+
+.pod_img h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
