@@ -1,0 +1,12 @@
+.pod_leader {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.pod_leader h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}

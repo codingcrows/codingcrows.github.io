@@ -1,16 +1,15 @@
 import SEO from '../components/Seo';
-import styles from '../styles/Home.module.css';
+import Pod_Leader from '../components/Pod_Leader';
+import Pod from '../components/Pod';
+import Coding_Crow from '../components/Coding_Crow';
 
 export default function Home() {
     return (
         <>
             <SEO />
-            <div className={styles.main}>
-                <div className={styles.pod_img}>
-                    <img src='/images/logo.png' alt='coding crow' />
-                    <h1>Coding Crows</h1>
-                </div>
-            </div>
+            <Coding_Crow />
+            <Pod_Leader />
+            <Pod />
         </>
     );
 }
