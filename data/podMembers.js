@@ -3,7 +3,7 @@ module.exports = [
         name: 'Angelina Gasharova',
         url: '/images/Angelina_Gasharova.jpg',
         github: 'https://github.com/angelinag',
-        linkedin: 'https://linkedin.com/in',
+        linkedin: 'https://linkedin.com/in/angelina-gasharova-6797691b7',
     },
     {
         name: 'Saad Irfan',
