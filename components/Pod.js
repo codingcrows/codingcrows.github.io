@@ -14,6 +14,8 @@ const Pod = () => {
                     <Card
                         url={member.url}
                         name={member.name}
+                        github={member.github}
+                        linkedin={member.linkedin}
                         pod={true}
                         key={Math.floor(Math.random() * 10000)}
                     />

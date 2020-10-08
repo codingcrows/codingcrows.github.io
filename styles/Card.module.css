@@ -1,7 +1,7 @@
 .card {
     width: 300px;
-    height: 400px;
-    margin-top: 50px;
+    height: 450px;
+    margin: 50px 25px 0px 25px;
     border-radius: 5px;
     box-shadow: #9e9e9e 1px 1px 10px;
     transition: all 0.5s;
@@ -21,17 +21,43 @@
     width: 250px;
     height: 250px;
     border-radius: 200px;
-    margin-top: 30px;
+    border: solid 3px #9e9e9e;
+    margin-top: 25px;
+}
+
+.pod:nth-child(1) img,
+.pod:nth-child(8) img,
+.pod:nth-child(10) img {
+    border: solid 3px #db3236;
+}
+
+.pod:nth-child(2) img,
+.pod:nth-child(5) img,
+.pod:nth-child(9) img {
+    border: solid 3px #3cba54;
+}
+
+.pod:nth-child(3) img,
+.pod:nth-child(6) img,
+.pod:nth-child(11) img {
+    border: solid 3px #f4c20d;
+}
+
+.pod:nth-child(4) img,
+.pod:nth-child(7) img,
+.pod:nth-child(12) img {
+    border: solid 3px #4885ed;
 }
 
 .card h3 {
     font-size: 1.5rem;
     color: #ffffff;
+    margin: 15px 0px;
 }
 
 .pod {
     width: 300px;
-    height: 400px;
+    height: 450px;
     margin: 50px 25px 0px 25px;
     border-radius: 5px;
     box-shadow: #ffffff 1px 1px 10px;
@@ -50,4 +76,59 @@
 .pod h3 {
     font-size: 1.5rem;
     color: #000000;
+    margin: 15px 0px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    border: none !important;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+.card .read_more_btn button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+card .read_more_btn button:hover {
+    cursor: pointer;
+    box-shadow: #ffffff 1px 1px 20px;
+    margin-top: 15px;
+    padding: 15px 35px;
+}
+
+.read_more_btn button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.read_more_btn button:hover {
+    cursor: pointer;
+    box-shadow: #201e1e 1px 1px 20px;
+    margin-top: 15px;
+    padding: 15px 35px;
 }
