@@ -1,0 +1,19 @@
+.footer {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h3 {
+    font-family: 'Lora', serif;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
