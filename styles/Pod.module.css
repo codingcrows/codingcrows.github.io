@@ -18,3 +18,11 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+/* responsive styles */
+
+@media screen and (max-width: 600px) {
+    .pod_details h2 {
+        font-size: 1.7rem;
+    }
+}

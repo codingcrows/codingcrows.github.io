@@ -3,10 +3,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    justify-content: center;
 }
 
 .pod_leader h2 {
     font-size: 2.5rem;
     text-transform: uppercase;
+    margin: 0;
+}
+
+/* responsive styles */
+
+@media screen and (max-width: 600px) {
+    .pod_leader {
+        padding-top: 0px;
+    }
+
+    .pod_leader h2 {
+        font-size: 1.7rem;
+        text-transform: uppercase;
+    }
 }
