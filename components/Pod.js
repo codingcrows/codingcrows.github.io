@@ -1,14 +1,10 @@
 import { useState } from 'react';
+import data from '../data/podMembers';
 import Card from './Card';
 import styles from '../styles/Pod.module.css';
 
 const Pod = () => {
-    const [podMembers] = useState([
-        { name: 'Angelina Gasharova', url: '/images/Angelina_Gasharova.jpg' },
-        { name: 'Saad Irfan', url: '/images/saad.jpg' },
-        { name: 'Aneesh Kodali', url: '/images/Aneesh_Kodali.jpeg' },
-        { name: 'Nkosilathi_Tauro', url: '/images/Nkosilathi_Tauro.png' },
-    ]);
+    const [podMembers] = useState(data);
 
     return (
         <div className={styles.pod_details}>
