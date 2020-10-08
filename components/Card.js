@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import styles from '../styles/Card.module.css';
 
-const Card = ({ url, name, pod, github, linkedin }) => {
+const Card = ({ url, name, pod, github, linkedin, more }) => {
     const [podClass, setPodClass] = useState(styles.card);
     useEffect(() => {
         if (pod === true) {
@@ -44,7 +44,11 @@ const Card = ({ url, name, pod, github, linkedin }) => {
                 )}
             </div>
             <div className={styles.read_more_btn}>
-                <button>Read More</button>
+                <Link href={more} passHref={true}>
+                    <a>
+                        <button>Read More</button>
+                    </a>
+                </Link>
             </div>
         </div>
     );

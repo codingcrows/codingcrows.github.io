@@ -16,6 +16,7 @@ const Pod = () => {
                         name={member.name}
                         github={member.github}
                         linkedin={member.linkedin}
+                        more={member.more}
                         pod={true}
                         key={Math.floor(Math.random() * 10000)}
                     />

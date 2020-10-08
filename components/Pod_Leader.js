@@ -6,7 +6,12 @@ const Pod_Leader = () => {
         <div className={styles.pod_leader}>
             <h2>Meet our pod leader</h2>
             <div className={styles.leader_description}>
-                <Card url='/images/arsalan.jpg' name='Arslan Khattak' pod='' />
+                <Card
+                    url='/images/arsalan.jpg'
+                    name='Arslan Khattak'
+                    pod=''
+                    more='https://www.khattak.dev/'
+                />
                 <p>
                     I'm a Computer Science Junior and a Full Stack (MERN) Developer and open source
                     contributor. Being MLH'20 Fellow, I'm active Next.Js Contributor. Writing down
