@@ -41,4 +41,10 @@ module.exports = [
         github: 'https://github.com/Jorres',
         linkedin: 'https://linkedin.com/',
     },
+    {
+        name: 'Arlyn Miles',
+        url: '/images/arlyn.png',
+        github: 'https://github.com/Acrylami',
+        linkedin: 'https://www.linkedin.com/in/arlyn-m-06b4331b9/',
+    },
 ];
