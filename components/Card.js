@@ -43,9 +43,29 @@ const Card = ({ url, name, pod, github, linkedin, bio, project, openPopupboxForP
                     </>
                 )}
             </div>
-            <div className={styles.read_more_btn}>
-                <button onClick={() => openPopupboxForPod(bio)}>Read More</button>
-            </div>
+            {(pod === true && project === false && (
+                <div className={styles.read_more_btn}>
+                    <button onClick={() => openPopupboxForPod(bio)}>Read More</button>
+                </div>
+            )) ||
+                (pod === true && project === true && (
+                    <div className={styles.read_more_btn}>
+                        <Link href={github} passHref={true}>
+                            <a>
+                                <button>Read More</button>
+                            </a>
+                        </Link>
+                    </div>
+                )) ||
+                (pod === false && project === false && (
+                    <div className={styles.read_more_btn}>
+                        <Link href='https://www.khattak.dev/' passHref={true}>
+                            <a>
+                                <button>Read More</button>
+                            </a>
+                        </Link>
+                    </div>
+                ))}
         </div>
     );
 };
