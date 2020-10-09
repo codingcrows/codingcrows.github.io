@@ -20,6 +20,7 @@ const Pod = ({ openPopupboxForPod }) => {
                         pod={true}
                         key={Math.floor(Math.random() * 10000)}
                         openPopupboxForPod={openPopupboxForPod}
+                        project={false}
                     />
                 ))}
             </div>

@@ -9,8 +9,9 @@ const Pod_Leader = () => {
                 <Card
                     url='/images/arsalan.jpg'
                     name='Arslan Khattak'
-                    pod=''
-                    more='https://www.khattak.dev/'
+                    bio=''
+                    project={false}
+                    pod={false}
                 />
                 <p>
                     I'm a Computer Science Junior and a Full Stack (MERN) Developer and open source

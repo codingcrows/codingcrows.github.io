@@ -2,6 +2,7 @@ import SEO from '../components/Seo';
 import Coding_Crow from '../components/Coding_Crow';
 import Pod_Leader from '../components/Pod_Leader';
 import Pod from '../components/Pod';
+import Projects from '../components/Project';
 import Footer from '../components/Footer';
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
 import 'react-popupbox/dist/react-popupbox.css';
@@ -31,6 +32,7 @@ export default function Home() {
             <Coding_Crow />
             <Pod_Leader />
             <Pod openPopupboxForPod={openPopupboxForPod} />
+            <Projects openPopupboxForPod={openPopupboxForPod} />
             <Footer />
             <PopupboxContainer {...popupboxConfig} />
         </>
