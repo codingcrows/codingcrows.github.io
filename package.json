@@ -12,5 +12,6 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-popupbox": "^2.0.8"
-  }
+  },
+  "license": "MIT"
 }
