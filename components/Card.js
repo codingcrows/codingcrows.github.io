@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import styles from '../styles/Card.module.css';
 
-const Card = ({ url, name, pod, github, linkedin, bio, openPopupboxForPod }) => {
+const Card = ({ url, name, pod, github, linkedin, bio, project, openPopupboxForPod }) => {
     const [podClass, setPodClass] = useState(styles.card);
     useEffect(() => {
         if (pod === true) {
@@ -15,7 +15,7 @@ const Card = ({ url, name, pod, github, linkedin, bio, openPopupboxForPod }) => 
             <img src={url} alt={name} />
             <h3>{name}</h3>
             <div className={styles.social}>
-                {pod === true ? (
+                {pod === true && project === false ? (
                     <>
                         <Link href={github} passHref={true}>
                             <a>
@@ -44,11 +44,7 @@ const Card = ({ url, name, pod, github, linkedin, bio, openPopupboxForPod }) => 
                 )}
             </div>
             <div className={styles.read_more_btn}>
-                {/* <Link href={more} passHref={true}> */}
-                {/* <a> */}
                 <button onClick={() => openPopupboxForPod(bio)}>Read More</button>
-                {/* </a> */}
-                {/* </Link> */}
             </div>
         </div>
     );
