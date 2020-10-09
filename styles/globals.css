@@ -14,3 +14,24 @@ a {
 * {
     box-sizing: border-box;
 }
+
+.popupbox-wrapper {
+    width: 50%;
+    background-color: #2d2b55 !important;
+}
+
+.popupbox-content {
+    padding: 0 !important;
+}
+
+.popupbox-content h3 {
+    text-transform: uppercase !important;
+    color: #ffffff !important;
+}
+
+.popupbox-content p {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 40px 40px;
+    font-family: 'Lora', serif;
+}
