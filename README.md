@@ -5,7 +5,7 @@
 
 ## 👨🏻‍💻 Pod Leader
 
-- [Arslan Dilawar]([https](https://github.com/khattakdev))
+- [Arslan Dilawar](https://github.com/khattakdev)
 
 ## 👥 Pod Members
 
