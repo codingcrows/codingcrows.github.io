@@ -55,4 +55,18 @@ module.exports = [
         linkedin: 'https://www.linkedin.com/in/arlyn-m-06b4331b9/',
         more: '/pod/arlyn',
     },
+    {
+        name: 'Osarumense Azamegbe',
+        url: '/images/osas.jpg',
+        github: 'https://github.com/david-osas',
+        linkedin: 'https://www.linkedin.com/in/osarumense-azamegbe/',
+        more: '/pod/osarumense',
+    },
+    {
+        name: 'Yashika Sharma',
+        url: '/images/yashika.jpg',
+        github: 'https://github.com/yashika51',
+        linkedin: 'https://www.linkedin.com/in/yashika51',
+        more: '/pod/yashika',
+    },
 ];
