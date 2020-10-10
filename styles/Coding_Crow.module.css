@@ -1,0 +1,27 @@
+.pod_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.pod_img img {
+    border-radius: 200px;
+}
+
+.pod_img h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+/* responsive styles */
+
+@media screen and (max-width: 600px) {
+    .pod_img h1 {
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+}

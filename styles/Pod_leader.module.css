@@ -1,0 +1,53 @@
+.pod_leader {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.25s;
+}
+
+.pod_leader:hover {
+    opacity: 1;
+}
+
+.pod_leader h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.leader_description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.leader_description p {
+    flex: 0.6;
+    padding-left: 50px;
+    line-height: 25px;
+    font-family: 'Lora', serif;
+}
+
+/* responsive styles */
+
+@media screen and (max-width: 600px) {
+    .pod_leader {
+        padding-top: 0px;
+    }
+
+    .pod_leader h2 {
+        font-size: 1.7rem;
+        text-transform: uppercase;
+    }
+
+    .leader_description p {
+        display: none;
+    }
+}
