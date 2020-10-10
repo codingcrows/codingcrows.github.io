@@ -31,7 +31,7 @@ module.exports = [
         name: 'Levy Naibei',
         url: '/images/levy.jpeg',
         github: 'https://github.com/Levy-Naibei',
-        linkedin: 'https://linkedin.com/in/Levy-Naibei/',
+        linkedin: 'https://linkedin.com/in/levy-naibei-4a3b74ba/',
         bio: `Passionate Full-stack JavaScript Developer | React.js, Node.js | Data Science and Cloud computing enthusiast | Hiking, enjoying nature, mentoring fellow young people |`,
     },
     {
