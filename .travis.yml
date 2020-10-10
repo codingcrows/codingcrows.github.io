@@ -8,7 +8,6 @@ before_script:
   - npm install -g typings typescript istanbul gulp-cli mocha
   - npm install next
   - typings install
-  - tsc
 script:
   - npm run build # Runs next build
   - npm run export # Runs next export and generates the out directory
